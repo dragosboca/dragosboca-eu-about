@@ -62,6 +62,7 @@ theme = ""
         title = "Technical"
         [[params.skills.list.items]]
         details = "Golang/Python/Perl/Bash"
+#        rating = 3
         [[params.skills.list.items]]
         details = "Terraform/Ansible/Helm"
         [[params.skills.list.items]]

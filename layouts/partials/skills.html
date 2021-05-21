@@ -8,7 +8,19 @@
                                     <h4 class="item-title">{{ .title }}</h4>
                                     <ul class="list-unstyled resume-skills-list">
                                         {{ range .items }}
-                                        <li class="mb-2">{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                                        <li class="mb-2">
+                                            {{ if .rating }}
+                                             <span class = "resume-rating">
+                                                {{ range seq .rating }}
+                                                <span class="fa fa-circle checked"></span>
+                                                {{ end }}
+                                                {{ range after .rating ( seq 5 ) }}
+                                                <span class="fa fa-circle"></span>
+                                                {{ end }}
+                                             </span>
+                                            {{ end }}
+                                            {{ with .details }}{{ . | markdownify }}{{ end }}
+                                        </li>
                                         {{ end }}
                                     </ul>
                                 </div><!--//item-->

@@ -21,14 +21,15 @@
                                                     {{ end }}
                                                 </ul>
                                             </div>
-                                        <div class="col-8">
-                                            <ul class="resume-list">
-                                                {{ range .items }}
-                                                <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
-                                                {{ end }}
-                                            </ul>
-                                        </div>
-                                    </div>
+                                            <div class="col-8">
+                                                <ul class="resume-list">
+                                                    {{ range .items }}
+                                                    <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                                                    {{ end }}
+                                                </ul>
+                                            </div>
+                                        </div><!-- row -->
+                                    </div><!-- item-content -->
                                 </div><!--//item-->
                                 {{ end }}
 
