@@ -1,4 +1,4 @@
-
+                            {{ $ratings := .Site.Params.skills.enable_ratings }}
                             <section class="skills-section py-3">
 
                                 <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "skills" }}</h3>
@@ -9,7 +9,8 @@
                                     <ul class="list-unstyled resume-skills-list">
                                         {{ range .items }}
                                         <li class="mb-2">
-                                            {{ if .rating }}
+                                            {{ if $ratings }}
+                                            {{ if and .rating (le .rating 5) }}
                                              <span class = "resume-rating">
                                                 {{ range seq .rating }}
                                                 <span class="fa fa-circle checked"></span>
@@ -18,6 +19,7 @@
                                                 <span class="fa fa-circle"></span>
                                                 {{ end }}
                                              </span>
+                                            {{ end }}
                                             {{ end }}
                                             {{ with .details }}{{ . | markdownify }}{{ end }}
                                         </li>

@@ -57,18 +57,43 @@ theme = ""
 
     [params.skills]
         enable = true
+        enable_ratings = false
 
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "Golang/Python/Perl/Bash"
-#        rating = 3
+        details = "Terraform"
+        rating = 5
         [[params.skills.list.items]]
-        details = "Terraform/Ansible/Helm"
+        details = "Ansible"
+        rating = 5
+        [[params.skills.list.items]]
+        details = "Helm"
+        rating = 5
         [[params.skills.list.items]]
         details = "AWS"
+        rating = 4
+
         [[params.skills.list.items]]
-        details = "Git/Spinnaker"
+        details = "Golang"
+        rating = 3
+        [[params.skills.list.items]]
+        details = "Python"
+        rating = 3
+        [[params.skills.list.items]]
+        details = "Bash"
+        rating = 4
+        [[params.skills.list.items]]
+        details = "Perl"
+        rating = 3
+
+        [[params.skills.list.items]]
+        details = "Git"
+        rating = 0
+        [[params.skills.list.items]]
+        details = "Spinnaker"
+        rating = 0
+
         # [[params.skills.list.items]]
         # details = "Object-oriented design"
         # [[params.skills.list.items]]
