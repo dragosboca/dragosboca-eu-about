@@ -1,36 +1,29 @@
-baseURL = "http://example.org/"
+baseURL = "https://about.dragosboca.eu/"
 languageCode = "en-us"
 
 title = "Dragos Boca"
 theme = ""
 
 
-
-
+[deployment]
+    [[deployment.targets]]
+    name = "haws"
+    URL = "s3://haws-hugo-dragosboca-eu-bucket?region=eu-west-1&prefix=CV/"
+    cloudFrontDistributionID = "E2AJH0F5D8GI9O"
 
 
 [params]
     author = "Dragos Boca"
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
-
-    primaryColor = "#54B689"
+    primaryColor = "#202020"
     textPrimaryColor = "#292929"
-
-
-
 
     [params.profile]
         enable = true
         name = "Dragos Boca"
         tagline = "DevOps - Infrastructure Developer"
         avatar = "CV-picture.jpg"
-
-
-
-
-
-
 
     [params.contact]
         enable = true
@@ -48,12 +41,6 @@ theme = ""
         # icon = "fas fa-globe"
         # url = "#"
         # text = "www.yourwebsite.com"
-
-
-
-
-
-
 
     [params.skills]
         enable = true
@@ -112,13 +99,6 @@ theme = ""
         [[params.skills.list.items]]
         details = "Good time management"
 
-
-
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -126,13 +106,6 @@ theme = ""
         degree = "Electrical Engineer"
         university = "\"Politehnica\" University of Bucharest"
         dates = "1996 - 1999"
-
-
-
-
-
-
-
 
     [params.awards]
         enable = false
@@ -146,13 +119,6 @@ theme = ""
         body = "Oracle Aenean"
         date = "2017"
 
-
-
-
-
-
-
-
     [params.languages]
         enable = true
 
@@ -162,13 +128,6 @@ theme = ""
         [[params.languages.list]]
         name = "English"
         level = "Professional"
-
-
-
-
-
-
-
 
     [params.interests]
         enable = true
@@ -180,24 +139,10 @@ theme = ""
         [[params.interests.list]]
         name = "Travelling"
 
-
-
-
-
-
-
-
     [params.summary]
         enable = true
 
         # text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
-
-
-
-
-
-
-
 
     [params.experience]
         enable = true
@@ -437,15 +382,6 @@ During the time when I was working for TIAB I was involved mostly in detail desi
         meta = "Open Source"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
-
-
-
-
-
-
-
-
-
     [params.information]
         enable = false
 
@@ -459,13 +395,6 @@ During the time when I was working for TIAB I was involved mostly in detail desi
         [[params.information.list]]
         title = "Interests"
         details = "Climbing, Snowboarding, Photography, Travelling"
-
-
-
-
-
-
-
 
     [params.social]
         enable = true
