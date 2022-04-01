@@ -14,7 +14,7 @@ theme = ""
 
 [params]
     author = "Dragos Boca"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    description = "Resume"
 
     primaryColor = "#202020"
     textPrimaryColor = "#292929"
@@ -60,7 +60,6 @@ theme = ""
         [[params.skills.list.items]]
         details = "AWS"
         rating = 4
-
         [[params.skills.list.items]]
         details = "Golang"
         rating = 3
@@ -141,12 +140,36 @@ theme = ""
 
     [params.summary]
         enable = true
-
+        
         # text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
 
     [params.experience]
         enable = true
-
+        [[params.experience.list]]
+        title = "System Reliability Engineer"
+        dates = "Jully 2021 - Present"
+        company = "Siemens AG - Freelancer"
+        details = "With Siemens I participated in multiple projects, all on AWS cloud and EKS; the most notable beeing"
+        [[ params.experience.list.items]]
+        details = "Deploiyng and maintaining a Hyperledger Fabric network on multiple EKS clusters with terraform and Ansible and also writing Kubernetes Operators in Go and Ansible"
+        [[ params.experience.list.items]]
+        details = "Building a CI/CD pipeline for a Windows application in an EKS cluster using GitLab CI"
+        [[ params.experience.list.items]]
+        details = "A CI/CD Pipeline that also uses Gitlab CI and for a long term project"
+        [[params.experience.list.techstack]]
+        item = "AWS"
+        [[params.experience.list.techstack]]
+        item = "Kubernetes"
+        [[params.experience.list.techstack]]
+        item = "EKS"
+        [[params.experience.list.techstack]]
+        item = "Helm"
+        [[params.experience.list.techstack]]
+        item = "Go"
+        [[params.experience.list.techstack]]
+        item = "Ansible"
+        
+       
         [[params.experience.list]]
         title = "System Reliability Engineer"
         dates = "Oct 2018 – May 2021"
