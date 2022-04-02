@@ -72,7 +72,6 @@ theme = ""
         [[params.skills.list.items]]
         details = "Perl"
         rating = 3
-
         [[params.skills.list.items]]
         details = "Git"
         rating = 0
@@ -82,13 +81,6 @@ theme = ""
         [[params.skills.list.items]]
         details = "ArgoCD"
         rating = 0
-
-        # [[params.skills.list.items]]
-        # details = "Object-oriented design"
-        # [[params.skills.list.items]]
-        # details = "Design and implement database structures"
-        # [[params.skills.list.items]]
-        # details = "Lead and deliver complex software systems"
 
         [[params.skills.list]]
         title = "Professional"
@@ -172,7 +164,7 @@ theme = ""
         [[params.experience.list.techstack]]
         item = "Ansible"
         [[params.experience.list.techstack]]
-        item = "Hyperledger Fabric"        
+        item = "Hyperledger Fabric"
        
         [[params.experience.list]]
         title = "System Reliability Engineer"
