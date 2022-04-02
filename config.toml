@@ -2,7 +2,7 @@ baseURL = "https://about.dragosboca.eu/"
 languageCode = "en-us"
 
 title = "Dragos Boca"
-theme = ""
+# theme = ""
 
 
 [deployment]
