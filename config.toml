@@ -30,6 +30,10 @@ title = "Dragos Boca"
         location = "Bucharest, Romania"
 
         [[params.contact.list]]
+        icon = "fas fa-download"
+        url = "/assets/content/DragosBoca.pdf"
+        text = "downlaod this document as pdf"
+        [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
         text = "+40 728 001 186"
@@ -37,6 +41,7 @@ title = "Dragos Boca"
         icon = "fas fa-envelope-square"
         url = "mailto:#"
         text = "dragos.boca@gmail.com"
+
         # [[params.contact.list]]
         # icon = "fas fa-globe"
         # url = "#"
