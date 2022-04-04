@@ -382,7 +382,6 @@ During the time when I was working for TIAB I was involved mostly in detail desi
         details = "I was involved in the maintenance of electrical installations of the plant and also in maintenance of various electrical equipment. I also have been working as Network Administrator of the company's network having several servers (mostly running RedHat Linux) and a large number of workstations with booth Linux and Windows OS."
 
 
-
     [params.projects]
         enable = false
 
@@ -423,7 +422,7 @@ During the time when I was working for TIAB I was involved mostly in detail desi
         url = "//github.com/dragosboca"
         title = "dragosboca"
         [[params.social.list]]
-        icon = "fab fa-linkedin"
+        icon = "fa-brands fa-linked-in"
         url = "//linkedin.com/in/dragosboca"
         title = "dragosboca"
         # [[params.social.list]]
