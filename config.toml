@@ -40,7 +40,7 @@ title = "Dragos Boca"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "dragos.boca@gmail.com"
+        text = "dragos.boca@cloudsolutions.consulting"
 
         # [[params.contact.list]]
         # icon = "fas fa-globe"
