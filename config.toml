@@ -147,7 +147,7 @@ title = "Dragos Boca"
         enable = true
         [[params.experience.list]]
         title = "System Reliability Engineer"
-        dates = "Jully 2021 - Present"
+        dates = "July 2021 - Present"
         company = "Siemens AG - Freelancer"
         details = "With Siemens I participated in multiple projects, all on AWS cloud and EKS; the most notable beeing"
         [[ params.experience.list.items]]
