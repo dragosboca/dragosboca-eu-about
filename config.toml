@@ -1,5 +1,6 @@
 baseURL = "https://about.dragosboca.eu/"
 languageCode = "en-us"
+googleAnalytics = 'G-KGDXFTTB4W'
 
 title = "Dragos Boca"
 # theme = ""
