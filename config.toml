@@ -286,24 +286,6 @@ title = "Dragos Boca"
 
         [[params.experience.list]]
         title = "Linux System Developer"
-        dates = "June 2014 - April 2015"
-        company = "Interactive Systems"
-        details = "Custom linux distribution based on Ubuntu"
-        [[params.experience.list.items]]
-        details = "Development of initiallization and configuration scripts for various Linux services."
-        [[params.experience.list.items]]
-    	details = "Development of a custom installation software for a Linux distribution."
-        [[params.experience.list.items]]
-    	details = "Development and maintenance of the QA and dev environments suitable for testing an entire Linux distribution."
-        [[params.experience.list.items]]
-    	details = "Maintenance and administration of the department servers running RedHat Linux."
-        [[params.experience.list.techstack]]
-        item = "Perl"
-        [[params.experience.list.techstack]]
-        item = "Linux"
-
-        [[params.experience.list]]
-        title = "Linux System Developer"
         dates = "April 2012 - June 2014"
         company = "1&1 Internet AG"
         details = "Maintenance and monitoring of several on-premises application servers (mostly JBoss) for QA and dev and production environments and also development of a custom automatic provisioning system for load-balancers based of Linux Virtual Server, HA-Proxy and Heartbeat"
@@ -317,6 +299,24 @@ title = "Dragos Boca"
         item = "Python"
         [[params.experience.list.techstack]]
         item = "Ruby"
+        [[params.experience.list.techstack]]
+        item = "Linux"
+
+        [[params.experience.list]]
+        title = "Linux System Developer"
+        dates = "Jully 2011 - December 2011"
+        company = "Interactive Systems"
+        details = "Custom linux distribution based on Ubuntu"
+        [[params.experience.list.items]]
+        details = "Development of initiallization and configuration scripts for various Linux services."
+        [[params.experience.list.items]]
+    	details = "Development of a custom installation software for a Linux distribution."
+        [[params.experience.list.items]]
+    	details = "Development and maintenance of the QA and dev environments suitable for testing an entire Linux distribution."
+        [[params.experience.list.items]]
+    	details = "Maintenance and administration of the department servers running RedHat Linux."
+        [[params.experience.list.techstack]]
+        item = "Perl"
         [[params.experience.list.techstack]]
         item = "Linux"
 
