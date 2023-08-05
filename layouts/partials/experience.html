@@ -14,12 +14,14 @@
                                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
                                         <div class="row">
                                             <div class="col-2">
+                                                {{ if .techstack }}
                                                 Techstack
                                                 <ul class="text-muted item-tech">
                                                     {{ range .techstack }}
-                                                    <li>{{ with .item }}{{ . | markdownify }}{{ end }}</li>
+                                                    <li>{{ with . }}{{ . | markdownify }}{{ end }}</li>
                                                     {{ end }}
                                                 </ul>
+                                                {{ end }}
                                             </div>
                                             <div class="col-8">
                                                 <ul class="resume-list">

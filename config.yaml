@@ -1,0 +1,426 @@
+baseURL: 'https://about.dragosboca.eu/'
+languageCode: en-us
+googleAnalytics: G-KGDXFTTB4W
+title: Dragos Boca
+deployment:
+  targets:
+    - name: haws
+      URL: 's3://haws-hugo-dragosboca-eu-bucket?region=eu-west-1&prefix=CV/'
+      cloudFrontDistributionID: E2AJH0F5D8GI9O
+params:
+  author: Dragos Boca
+  description: Resume
+  primaryColor: '#202020'
+  textPrimaryColor: '#292929'
+  profile:
+    enable: true
+    name: Dragos Boca
+    tagline: DevOps - Infrastructure Developer
+    avatar: CV-picture.jpg
+  contact:
+    enable: true
+    location: 'Bucharest, Romania'
+    list:
+      - icon: fas fa-download
+        url: /assets/content/DragosBoca.pdf
+        text: downlaod this document as pdf
+      - icon: fas fa-phone-square
+        url: 'tel:#'
+        text: +40 728 001 186
+      - icon: fas fa-envelope-square
+        url: 'mailto:#'
+        text: dragos.boca@cloudsolutions.consulting
+  skills:
+    enable: true
+    enable_ratings: false
+    list:
+      - title: Technical
+        items:
+          - details: Terraform
+            rating: 5
+          - details: Ansible
+            rating: 5
+          - details: Helm
+            rating: 5
+          - details: AWS
+            rating: 4
+          - details: Golang
+            rating: 3
+          - details: Python
+            rating: 3
+          - details: Bash
+            rating: 4
+          - details: Perl
+            rating: 3
+          - details: Git
+            rating: 0
+          - details: GitLab
+            rating: 0
+          - details: ArgoCD
+            rating: 0
+      - title: Professional
+        items:
+          - details: Effective communication
+          - details: Team player
+          - details: Strong problem solver
+          - details: Good time management
+  education:
+    enable: true
+    list:
+      - degree: Electrical Engineer
+        university: '"Politehnica" University of Bucharest'
+        dates: 1996 - 1999
+  awards:
+    enable: false
+    list:
+      - name: Award Lorem Ipsum
+        body: Microsoft lorem ipsum
+        date: '2019'
+      - name: Award Donec Sodales
+        body: Oracle Aenean
+        date: '2017'
+  languages:
+    enable: true
+    list:
+      - name: Romanian
+        level: Native
+      - name: English
+        level: Professional
+  interests:
+    enable: true
+    list:
+      - name: Photography
+      - name: Trecking
+      - name: Travelling
+  summary:
+    enable: true
+  experience:
+    enable: true
+    list:
+      - title: System Reliability Engineer
+        dates: October 2022 - Present
+        company: Siemens Energy (via Remobi) - Freelancer
+        details: >-
+          With Siemens Energy I participated in an innovative project combining
+          classical technologies with blockchain and cloud technologies.
+        items:
+          - details: >-
+              Deploiyng and maintaining a Hyperledger Besu private Ethereum network on multiple
+              EKS clusters
+          - details: >-
+              Building a CI/CD pipeline using GitLab CI for multiple
+              applications deployed in EKS
+          - details: >-
+              Monitoring and logging infrastructure using Prometheus and Grafana
+        techstack:
+          - AWS
+          - Kubernetes
+          - EKS
+          - Helm
+          - Go
+      - title: System Reliability Engineer
+        dates: July 2021 - October 2022
+        company: Siemens AG (via Montash) - Freelancer
+        details: >-
+          With Siemens I participated in multiple projects, all on AWS cloud and
+          EKS; the most notable beeing
+        items:
+          - details: >-
+              Deploiyng and maintaining a Hyperledger Fabric network on multiple
+              EKS clusters with terraform and Ansible and also writing
+              Kubernetes Operators in Go and Ansible
+          - details: >-
+              Building a CI/CD pipeline for a Windows application in an EKS
+              cluster using GitLab CI
+          - details: >-
+              A CI/CD Pipeline that also uses Gitlab CI and for a long term
+              project
+        techstack:
+          - AWS
+          - Kubernetes
+          - EKS
+          - Helm
+          - Go
+          - Ansible
+          - Hyperledger Fabric
+      - title: System Reliability Engineer
+        dates: Oct 2018 – May 2021
+        company: Adobe
+        details: >-
+          Live migrate a large, geo-distributed, group of monolith applications
+          from on-premisses datacenter to Kubernetes EKS clusters in AWS
+        items:
+          - details: >-
+              I designed the architecture for the new cloud-based infrastructure
+              for the application. I also chose the tech stack and contributed
+              to the design guidelines for the code responsible for the
+              infrastructure.
+          - details: >-
+              I also contributed to the monitoring and logging infrastructure -
+              using Prometheus respectively fluentd - and fine-tuned the
+              components to ensure maximum performance and stability.
+          - details: >-
+              I contributed to most of the code for the infrastructure. Together
+              with the engineering team, we established procedures and response
+              actions to various events generated by infrastructure or
+              applications.
+          - details: >-
+              I designed and implemented the DNS solution for the application,
+              including a geo-DNS routing solution with complex weighted and
+              latency based rules and records.
+          - details: >-
+              I participated in on-call rotation and on-call activities,
+              including post-mortem analysis and root-cause analysis of the
+              issues detected.
+        techstack:
+          - AWS
+          - Kubernetes
+          - EKS
+          - Helm
+          - Go
+          - Ansible
+          - Terraform
+          - Prometheus
+          - Fluentd
+      - title: System Reliability Engineer
+        dates: Nov 2017 – Sep 2018
+        company: OwnZones
+        details: >-
+          Migrate a microservices project from classical EC2 based
+          infrastructure to Kubernetes
+        items:
+          - details: >-
+              I configured several Kubernetes clusters (different clusters for
+              production-like environments and development environments) located
+              in two AWS accounts (one for production and one for development)
+              using Kops and Helm - including monitoring with Prometheus,
+              logging and alerting (integration with Victorops), cluster
+              autoscaling, custom metrics HPA and integration with Spotinst.
+          - details: >-
+              I designed and implemented a CI/CD pipeline starting from CircleCi
+              using Helm, Terraform (for components not hosted in Kubernetes
+              like databases or Redis clusters) and custom deployment scripts.
+        techstack:
+          - AWS
+          - Kubernetes
+          - Kops
+          - Helm
+          - Go
+          - Terraform
+          - Prometheus
+          - Fluentd
+      - title: Devops Consultant
+        dates: November 2016 - November 2017
+        company: Endava
+        details: >-
+          Migrate development environment from on-premisses infrastructure to
+          cloud infrastructure hosted in AWS.
+        items:
+          - details: >-
+              I designed the architecture for the cloud infrastructure required
+              to host development infrastructure of several projects in
+              finance/banking domain and also designed a CI/CD pipeline based on
+              Jenkins. The infrastructure was provisioned with Terraform and
+              Ansible and included several stages as well as the ability to
+              provision on-the fly on-demand environments for experimental
+              features. The application was hosted on Oracle WebLogic servers
+              (configured mostly with Ansible and custom shell scripts) and the
+              database was also Oracle DB (managed by AWS)
+        techstack:
+          - AWS
+          - Kubernetes
+          - Ansible
+          - Terraform
+      - title: Principal DevOps Engineer
+        dates: April 2014 - November 2016
+        company: ORACLE
+        details: >-
+          DevOps in a large team responsible of a very demanding and fast paced
+          development product. My primary task is to support, maintain, monitor
+          and improve the dev and QA environments for one of the products of
+          Fusion Applications
+        items:
+          - details: >-
+              Devlopment of automation for various deployment, maintenance and
+              monitoring processes.
+          - details: Server and application log analysis and monitoring.
+        techstack:
+          - Perl
+          - Python
+      - title: DevOps
+        dates: June 2014 - April 2016
+        company: SoftVision
+        details: >-
+          I participated to several projects involving cloud architecture and
+          cloud applications. Mostly I had to deal with:
+        items:
+          - details: >-
+              Development of automation tools to manage and deploy applications,
+              using Ansible and Puppet and custom-made scripts in Python, Bash
+              and Ruby.
+          - details: >-
+              Building and management of  production, development and testing
+              environments on AWS infrastructure, assisting developers in
+              debugging application issues.
+          - details: Building of tools and processes to support the infrastructure.
+        techstack:
+          - AWS
+          - Puppet2
+          - Ansible
+          - Docker
+      - title: Linux System Developer
+        dates: April 2012 - June 2014
+        company: 1&1 Internet AG
+        details: >-
+          Maintenance and monitoring of several on-premises application servers
+          (mostly JBoss) for QA and dev and production environments and also
+          development of a custom automatic provisioning system for
+          load-balancers based of Linux Virtual Server, HA-Proxy and Heartbeat
+        items:
+          - details: Development of new infrastructure applications and frameworks.
+          - details: >-
+              Maintenance and administration of existing infrastructure (mostly
+              applications and frameworks built on top of Debian Linux).
+        techstack:
+          - Perl
+          - Python
+          - Ruby
+          - Linux
+      - title: Linux System Developer
+        dates: Jully 2011 - December 2011
+        company: Interactive Systems
+        details: Custom linux distribution based on Ubuntu
+        items:
+          - details: >-
+              Development of initiallization and configuration scripts for
+              various Linux services.
+          - details: >-
+              Development of a custom installation software for a Linux
+              distribution.
+          - details: >-
+              Development and maintenance of the QA and dev environments
+              suitable for testing an entire Linux distribution.
+          - details: >-
+              Maintenance and administration of the department servers running
+              RedHat Linux.
+        techstack:
+          - Perl
+          - Linux
+      - title: System Administrator / Technical support engineer
+        dates: June 2007 - Jully 2011
+        company: Joint Venture Aktor Athena
+        details: >
+          The project I was worked for was "Waste Water Treatment Plant – Glina"
+          I had as primary task network and system administration of the on-site
+          network consisting of a large number of workstations, networked
+          printers and two servers running on Fedora Linux. The infrastructure
+          also included several VPN (OpenVPN and PPTP) connecting various
+          location booth  on-site and remote.
+
+
+          I was also working as local technical support and my tasks consisted
+          in:
+        items:
+          - details: >-
+              Analysis and evaluation of third-party designs for electrical
+              installations.
+          - details: >-
+              Analysis and evaluation of various offers from subcontractors for
+              designing and execution of electrical installations.
+        techstack:
+          - Linux
+          - Monitoring
+      - title: Site Engineer (Project Based)
+        dates: August 2006 - March 2007
+        company: D&T Industrial Equipment
+        details: >-
+          The project I was worked for was "Kaufland - Barbu Vacarescu" and I
+          was supervising the design and execution for all the installations in
+          the store.
+        items:
+          - details: Management of work schedule and budget of the project
+          - details: >-
+              Management of work schedule and budget for works made by
+              subcontractors
+          - details: Management of the design team
+          - details: Supervision of the execution
+      - title: Head of Design Department
+        dates: December 2004 - August 2006
+        company: Helinick
+        details: 'Main tasks:'
+        items:
+          - details: Head of design department
+          - details: Coordinating and supervising the activity of the department
+          - details: Designing of weak-currents installations.
+      - title: Electrical Installation Designer
+        dates: October 2003 - December 2004
+        company: SIMEROM
+        details: >-
+          SIMEROM was a subsidiary of an Italian company called SIME that have
+          contracts with major companyes in Oil&Gas and energy production
+          companies (like ENI, ALSTOM and TECHNIOMONT). I worked as a senior
+          designer engineer booth in Bucharest offices and in Milano.
+      - title: Junior Electrical Installation Designer
+        dates: Jully 2001 - October 2003
+        company: TIAB SA
+        details: >
+          TIAB was a well known Romanian company that has been purchased by
+          Group VINCY and had more than 50 years experience in installations and
+          was one of the major companies with a large field of services that
+          includes technical and technological design, erection and
+          comissioniong of installations for civil and industrial objectives and
+          also have a large number of projects in energy production, oil&gas
+          industry, food industry and many others.
+
+
+          During the time when I was working for TIAB I was involved mostly in
+          detail designing for various electrical installations.
+      - title: IT Support / Maintenance Engineer
+        dates: August 2000 - July 2001
+        company: ZIROM
+        details: >-
+          I was involved in the maintenance of electrical installations of the
+          plant and also in maintenance of various electrical equipment. I also
+          have been working as Network Administrator of the company's network
+          having several servers (mostly running RedHat Linux) and a large
+          number of workstations with booth Linux and Windows OS.
+  projects:
+    enable: false
+    list:
+      - title: Project Lorem Ipsum
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Lorem ipsum dolor sit
+          amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus.
+      - title: Project Sed Fringilla
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+          ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+      - title: Project Praesent
+        meta: Open Source
+        tagline: >-
+          You can use this section for your side projects. Cras dapibus. Vivamus
+          elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+          ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+  information:
+    enable: false
+    list:
+      - title: Papers
+        items:
+          - details: 2018 · Lorem Ipsum
+          - details: 2016 · Sed Fringilla
+      - title: Interests
+        details: 'Photography, Travelling'
+  social:
+    enable: true
+    list:
+      - icon: fab fa-github-square
+        url: //github.com/dragosboca
+        title: dragosboca
+      - icon: fa-brands fa-linked-in
+        url: //linkedin.com/in/dragosboca
+        title: dragosboca
