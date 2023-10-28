@@ -1,17 +1,17 @@
-baseURL: 'https://about.dragosboca.eu/'
+baseURL: "https://about.dragosboca.eu/"
 languageCode: en-us
 googleAnalytics: G-KGDXFTTB4W
 title: Dragos Boca
 deployment:
   targets:
     - name: haws
-      URL: 's3://haws-hugo-dragosboca-eu-bucket?region=eu-west-1&prefix=CV/'
+      URL: "s3://haws-hugo-dragosboca-eu-bucket?region=eu-west-1&prefix=CV/"
       cloudFrontDistributionID: E2AJH0F5D8GI9O
 params:
   author: Dragos Boca
   description: Resume
-  primaryColor: '#202020'
-  textPrimaryColor: '#292929'
+  primaryColor: "#202020"
+  textPrimaryColor: "#292929"
   profile:
     enable: true
     name: Dragos Boca
@@ -19,16 +19,16 @@ params:
     avatar: CV-picture.jpg
   contact:
     enable: true
-    location: 'Bucharest, Romania'
+    location: "Bucharest, Romania"
     list:
       - icon: fas fa-download
         url: /assets/content/DragosBoca.pdf
         text: downlaod this document as pdf
       - icon: fas fa-phone-square
-        url: 'tel:#'
+        url: "tel:#"
         text: +40 728 001 186
       - icon: fas fa-envelope-square
-        url: 'mailto:#'
+        url: "mailto:#"
         text: dragos.boca@cloudsolutions.consulting
   skills:
     enable: true
@@ -75,10 +75,10 @@ params:
     list:
       - name: Award Lorem Ipsum
         body: Microsoft lorem ipsum
-        date: '2019'
+        date: "2019"
       - name: Award Donec Sodales
         body: Oracle Aenean
-        date: '2017'
+        date: "2017"
   languages:
     enable: true
     list:
@@ -97,8 +97,25 @@ params:
   experience:
     enable: true
     list:
+      - title: DevOps
+        dates: Jully 2023 - Present
+        company: Vonq - Freelancer
+        details: >-
+          Maintain and extend an application deployed on multiple cloud providers and services
+
+        techstack:
+          - AWS
+          - GCP
+          - Kubernetes
+          - EKS
+          - ECS
+          - Helm
+          - ArgoCD
+          - Argo Workflow
+          - Argo Events
+          - Python
       - title: System Reliability Engineer
-        dates: October 2022 - Present
+        dates: October 2022 - September 2023
         company: Siemens Energy (via Remobi) - Freelancer
         details: >-
           With Siemens Energy I participated in an innovative project combining
@@ -144,7 +161,7 @@ params:
           - Ansible
           - Hyperledger Fabric
       - title: System Reliability Engineer
-        dates: Oct 2018 – May 2021
+        dates: Oct 2018 - May 2021
         company: Adobe
         details: >-
           Live migrate a large, geo-distributed, group of monolith applications
@@ -347,7 +364,7 @@ params:
       - title: Head of Design Department
         dates: December 2004 - August 2006
         company: Helinick
-        details: 'Main tasks:'
+        details: "Main tasks:"
         items:
           - details: Head of design department
           - details: Coordinating and supervising the activity of the department
@@ -414,7 +431,7 @@ params:
           - details: 2018 · Lorem Ipsum
           - details: 2016 · Sed Fringilla
       - title: Interests
-        details: 'Photography, Travelling'
+        details: "Photography, Travelling"
   social:
     enable: true
     list:
