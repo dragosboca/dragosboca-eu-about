@@ -102,6 +102,16 @@ params:
         company: Vonq - Freelancer
         details: >-
           Maintain and extend an application deployed on multiple cloud providers and services
+        items:
+          - details: >-
+              Maintain and provision the infrastructure using Terraform and Ansible
+          - details: >-
+              Building CI/CD pipelines using GitHub Actions for multiple
+              applications deployed in EKS and ECS
+          - details: >-
+              Monitoring and logging infrastructure using Datadog
+          - details: >-
+              Build and maintain CI/CD pielines using ArgoCS and Argo Workflows
 
         techstack:
           - AWS
