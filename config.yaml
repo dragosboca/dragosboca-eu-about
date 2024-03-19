@@ -124,7 +124,7 @@ params:
           - Argo Workflow
           - Argo Events
           - Python
-      - title: System Reliability Engineer
+      - title: DevOps
         dates: October 2022 - September 2023
         company: Siemens Energy (via Remobi) - Freelancer
         details: >-
@@ -145,7 +145,7 @@ params:
           - EKS
           - Helm
           - Go
-      - title: System Reliability Engineer
+      - title: DevOps
         dates: July 2021 - October 2022
         company: Siemens AG (via Montash) - Freelancer
         details: >-
@@ -170,7 +170,7 @@ params:
           - Go
           - Ansible
           - Hyperledger Fabric
-      - title: System Reliability Engineer
+      - title: DevOps
         dates: Oct 2018 - May 2021
         company: Adobe
         details: >-
@@ -209,7 +209,7 @@ params:
           - Terraform
           - Prometheus
           - Fluentd
-      - title: System Reliability Engineer
+      - title: DevOPs
         dates: Nov 2017 – Sep 2018
         company: OwnZones
         details: >-
